@@ -1,20 +1,26 @@
 body {
-    margin: 0;
-    text-align: center;
+  margin: 200;
+  text-align: center;
 }
 
 .container {
-    display: flex;
-    justify-content: space-around;
+  display: flex;
+  justify-content: space-around;
 }
 
 .box {
-    background-color: black;
-    margin: 10px;
+  background-color: black;
+  margin: 10px;
 }
 
 .box h1 {
-    color: aqua;
-    font-family: 'CursedTimerULiL-Aznm','Courier New', Courier, monospace;
-    margin: auto;
+  color: aqua;
+  font-family: "CursedTimerULiL-Aznm", "Courier New", Courier, monospace;
+  margin: auto;
+  padding: 20 10 10;
+}
+
+button {
+  font-size: 24px;
+  margin: auto;
 }
